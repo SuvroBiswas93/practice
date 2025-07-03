@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-color: lightblue;
+    background-image: linear-gradient(
+        rgba(97, 43, 15, 0.7),
+        rgba(97,43,15,0.7)
+    ),url("coffee.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    height:8%;
+    display:flex;
+}
+.nav-left{
+    flex-basis:30%;
+    background-color:black;  /* HERE white*/
+    position: relative;
+}
+.nav-icons{
+    left:5%;
+    top:20%;
+    position:absolute;
+
+}
+.nav-icons ul li{
+    
+    display:inline-block;
+    margin-right: 15px;
+    
+}
+.nav-icons ul li i{
+    transition:all 0.3s linear;
+    color:white;     /*Here grey*/
+}
+.nav-icons ul li i:hover{
+    transform: scale(1.4);
+    
+}
+.nav-right{
+    flex-basis:70%;
+    position: relative;
+    
+}
+.nav-menu{
+    top: 20%;
+    right: 2%;
+    position:absolute
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.nav-menu ul li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom: 4px;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive !important;
+    font-size: 35px;
+}
+
+.content{
+    height:92%;
+    display: flex;
+}
+.content-left{
+    flex-basis:30%;
+    background-color: black;/*here white*/
+    position: relative;
+}
+.socialmedia{
+    left:5%;
+    bottom:5%;
+    position: absolute;
+}
+.socialmedia ul li{
+    list-style: none;
+    height:45px;
+    width:45px;
+    margin:10px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+    background-color:white;/*here*grey*/
+    
+}
+.socialmedia ul li a i{
+    transition:all 0.3s linear;
+    /*color: white;*/
+}
+.socialmedia ul li a i:hover{
+    transform: scale(2);
+    
+    
+}
+.fa-facebook{
+    color:#3b5998;
+}
+.fa-instagram{
+    color: purple;
+}
+.fa-twitter{
+    color:#00acee;
+}
+.fa-youtube{
+    color:#e62117;
+}
+.content-right{
+    flex-basis: 40%;
+    position: relative;
+}
+.text{
+    right: 5%;
+    bottom: 25%;
+    position: absolute;
+}
+.text h1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.text p{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+/*.display{
+    left:-15%;
+    bottom:10%;
+    position:absolute;
+}
+.display img{
+    height: 85%;
+    width:85%;
+}*/
